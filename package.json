@@ -1,0 +1,28 @@
+{
+  "name": "universal-redux-jwt",
+  "version": "0.0.1",
+  "description": "JWT example with Universal Redux",
+  "main": "index.js",
+  "scripts": {
+    "dev": "better-npm-run dev-server"
+  },
+  "betterScripts": {
+    "dev-server": {
+      "command": "node ./bin/start",
+      "env": {
+        "NODE_PATH": "./src",
+        "NODE_ENV": "development",
+        "PORT": 3000
+      }
+    }
+  },
+  "author": {
+    "name": "Buck DeFore"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ava": "^0.13.0",
+    "better-npm-run": "0.0.5",
+    "universal-redux": "3.0.2"
+  }
+}
